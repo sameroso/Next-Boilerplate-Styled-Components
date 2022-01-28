@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
      font-size: 62.5%;
  }
 
- -ms-hyphenate-limit-chars,body,#__next{
+ html,body,#__next{
      height: 100%;
  }
 
