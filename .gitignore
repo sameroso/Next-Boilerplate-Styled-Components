@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# sw stuff
+public/sw.js
+public/workbox-*.js
+
 # testing
 /coverage
 
@@ -32,3 +36,5 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+
