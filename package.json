@@ -10,7 +10,7 @@
     "prepare": "husky install",
     "test": "jest",
     "test:watch": "yarn test --watch",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
@@ -22,9 +22,7 @@
   "devDependencies": {
     "@babel/core": "^7.16.12",
     "@babel/preset-typescript": "^7.16.7",
-    "@storybook/addon-actions": "^6.4.14",
     "@storybook/addon-essentials": "^6.4.14",
-    "@storybook/addon-links": "^6.4.14",
     "@storybook/react": "^6.4.14",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
