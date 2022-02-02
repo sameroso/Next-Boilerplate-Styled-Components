@@ -64,7 +64,7 @@ exports[`<Main /> should render the heading 1`] = `
     Typescript, ReactJS, NextJS e Styled Components
   </h2>
   <img
-    alt="desenvolvedor de frente para a tela com código"
+    alt="desenvolvedor de frente para a tela do computador com código"
     class="c4"
     src="/img/hero-illustration.svg"
   />

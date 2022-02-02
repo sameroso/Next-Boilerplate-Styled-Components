@@ -13,7 +13,7 @@ const Main = ({
     <S.Description>{subtitle}</S.Description>
     <S.Illustration
       src="/img/hero-illustration.svg"
-      alt="desenvolvedor de frente para a tela com código"
+      alt="desenvolvedor de frente para a tela do computador com código"
     />
   </S.Wrapper>
 )
