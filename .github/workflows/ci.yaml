@@ -1,5 +1,5 @@
 name: project-ci
-on: [pull_request]
+on: [pull-request]
 jobs:
   makes-ci-on-pull-request:
     runs-on: ubuntu-latest
