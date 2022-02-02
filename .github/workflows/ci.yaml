@@ -1,7 +1,7 @@
 name: project-ci
-on: [push]
+on: [pull_request]
 jobs:
-  makes-ci:
+  makes-ci-on-pull-request:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
