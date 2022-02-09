@@ -6,5 +6,9 @@ const isProd = process.env.NODE_ENV === 'production'
 module.exports = withPWA({
   reactStrictMode: true,
   pwa: { dest: 'public' },
-  disable: !isProd
+  disable: !isProd,
+  experimental: {
+    // ssr and displayName are configured by default
+    styledComponents: true
+  }
 })
